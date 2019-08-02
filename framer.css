@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
 /* Colfax */
 @font-face {
 	font-family: Colfax;
@@ -288,22 +290,24 @@ table thead:first-child tr:first-child td {
 table tbody + tbody {
 	border-top: 2px solid #ddd;
 }
-code,
+
 .md-fences {
+	margin: 2rem 0;
+}
+
+code,
+pre {
 	color: rgb(34, 34, 34);
 	font-weight: 500;
 	font-size: 0.8em;
 	font-family: Input, 'SF Mono', Menlo, Monaco, Courier, monospace;
 }
 
-.md-line code {
-	margin: 0px 2px;
-	padding: 4px 6px;
+code {
 	border-radius: 6px;
 	box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px;
-}
-
-.md-fences {
+	margin: 0px 2px;
+	padding: 4px 6px;
 }
 
 .task-list {
@@ -494,6 +498,12 @@ p.mathjax-block,
 	border: 1px solid var(--accent-color) !important;
 	border-radius: 0.25rem;
 	padding: 1.875rem;
+	margin: 1rem 0;
+}
+
+.cm-s-inner {
+	margin: none;
+	padding: none;
 }
 
 .cm-s-inner.CodeMirror,
